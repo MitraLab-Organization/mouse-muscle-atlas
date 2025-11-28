@@ -1,0 +1,76 @@
+# Automated release workflow for MMA ontology
+name: Create Release
+
+on:
+  # Trigger on tag push (e.g., v2024-11-28)
+  push:
+    tags:
+      - 'v*'
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 2024-11-28)'
+        required: true
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    container:
+      image: obolibrary/odkfull:latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            echo "version=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            # Extract version from tag (remove 'v' prefix)
+            echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build release artifacts
+        run: |
+          cd src/ontology
+          make RELEASEDATE=${{ steps.version.outputs.version }} prepare_release_fast
+        env:
+          ROBOT_JAVA_ARGS: "-Xmx8G"
+
+      - name: List generated files
+        run: |
+          echo "=== Release files ===" 
+          ls -la *.owl *.obo *.json 2>/dev/null || echo "No files in root"
+          echo "=== src/ontology files ==="
+          ls -la src/ontology/*.owl src/ontology/*.obo src/ontology/*.json 2>/dev/null || echo "No files"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: MMA Release ${{ steps.version.outputs.version }}
+          tag_name: v${{ steps.version.outputs.version }}
+          generate_release_notes: true
+          files: |
+            mma.owl
+            mma.obo
+            mma.json
+            mma-base.owl
+            mma-base.obo
+            mma-base.json
+            mma-full.owl
+            mma-full.obo
+            mma-full.json
+            mma-simple.owl
+            mma-simple.obo
+            mma-simple.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
