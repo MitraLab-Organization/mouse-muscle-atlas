@@ -1,0 +1,37 @@
+id: mma
+title: "Mouse Muscle Atlas"
+description: "An ontology for mouse muscle and skeletal anatomy structures"
+github_org: MitraLab-Organization
+git_main_branch: main
+repo: mouse-muscle-atlas
+
+# Release configuration
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+
+# Imports from external ontologies
+import_group:
+  products:
+    - id: ro      # Relations Ontology (part_of, located_in, etc.)
+    - id: bfo     # Basic Formal Ontology (foundational classes)
+    - id: pato    # Phenotype and Trait Ontology
+    - id: omo     # OBO Metadata Ontology
+    - id: uberon  # Anatomy ontology (for cross-references)
+
+# Memory allocation for ROBOT
+robot_java_args: '-Xmx8G'
+
+# Quality control reports
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit

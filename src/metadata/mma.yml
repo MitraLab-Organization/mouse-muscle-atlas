@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/mma
+
+idspace: MMA
+base_url: /obo/mma
+
+products:
+- mma.owl: https://raw.githubusercontent.com/MitraLab-Organization/mouse-muscle-atlas/main/mma.owl
+- mma.obo: https://raw.githubusercontent.com/MitraLab-Organization/mouse-muscle-atlas/main/mma.obo
+
+term_browser: ontobee
+example_terms:
+- MMA_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/MitraLab-Organization/mouse-muscle-atlas/v
+
+- prefix: /tracker/
+  replacement: https://github.com/MitraLab-Organization/mouse-muscle-atlas/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MMA?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/MitraLab-Organization/mouse-muscle-atlas/main/
+
