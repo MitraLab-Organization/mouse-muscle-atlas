@@ -1,0 +1,1589 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000000 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>occipital</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>parietal left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>parietal right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000004 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>interparietal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>squamosal left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>squamosal right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tympanic left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tympanic right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>basisphenoid</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000010 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>presphenoid</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000011 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomatic left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000012 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomatic right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000013 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>frontal left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000014 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>frontal right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000015 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>ethmoid</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000016 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>nasal left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000017 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>nasal right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000018 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>premaxilla left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000019 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>premaxilla right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000020 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>maxilla left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000021 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>maxilla right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000022 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>lacrimal left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000023 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>lacrimal right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000024 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>palatine left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000025 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>palatine right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000026 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>vomer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000027 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>malleus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000028 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>malleus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000029 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>incus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000030 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>incus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stapes left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000032 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stapes right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000033 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mandible left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000034 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mandible right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000035 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>hyoid bone</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000036 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>thyroid cartilage</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000037 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>arytenoid cartilage left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000038 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>arytenoid cartilage right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000039 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>laryngeal alar cartilage</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000040 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoid cartilage</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000041 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternum</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000042 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>clavicle left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000043 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>clavicle right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000044 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>scapula left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000045 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>scapula right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000046 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>vertebrae</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000047 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tensor tympani left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000048 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tensor tympani right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000049 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stapedius left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000050 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stapedius right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000051 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>platysma myoides left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000052 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>platysma myoides right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000053 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>platysma cervicale left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000054 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>platysma cervicale right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000055 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>occipitalis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000056 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>occipitalis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000057 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>auricularis posterior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000058 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>auricularis posterior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000059 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mandibulo-auricularis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000060 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mandibulo-auricularis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000061 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sphincter colli superficialis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000062 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sphincter colli superficialis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000063 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sphincter colli profundus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000064 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sphincter colli profundus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000065 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternofacialis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000066 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternofacialis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000067 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>interscutularis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000068 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>interscutularis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000069 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomaticus major left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000070 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomaticus major right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000071 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomaticus minor left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000072 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>zygomaticus minor right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000073 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbito-temporo-auricularis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000074 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbito-temporo-auricularis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000075 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbicularis oculi left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000076 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbicularis oculi right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000077 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>buccinatorius left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000078 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>buccinatorius right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000079 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator labii sup al nasi (nasolabialis) left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000080 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator labii sup al nasi (nasolabialis) right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000081 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>dilatator nasi left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000082 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>dilatator nasi right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000083 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator labii sup (max-naso-lab) left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000084 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator labii sup (max-naso-lab) right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000085 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator anguli oris facialis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000086 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator anguli oris facialis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000087 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbicularis oris left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000088 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>orbicularis oris right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000089 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mylohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000090 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>mylohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000091 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>digastricus anterior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000092 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>digastricus anterior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000093 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>intermandibularis anterior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000094 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>intermandibularis anterior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000095 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tensor veli palatini left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000096 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>tensor veli palatini right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000097 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>masseter left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000098 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>masseter right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000099 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>temporalis (2 bundles) left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000100 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>temporalis (2 bundles) right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000101 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygoideus lateralis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000102 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygoideus lateralis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000103 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygoideus medialis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000104 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygoideus medialis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000105 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stylohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000106 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stylohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000107 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>digastricus posterior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000108 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>digastricus posterior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000109 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>jugulohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000110 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>jugulohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000111 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stylopharyngeus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000112 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>stylopharyngeus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000113 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>acromiotrapezius left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000114 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>acromiotrapezius right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000115 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>spinotrapezius left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000116 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>spinotrapezius right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000117 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cleidooccipitalis (clavotrapezius) left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000118 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cleidooccipitalis (clavotrapezius) right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000119 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternomastoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000120 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternomastoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000121 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cleidomastoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000122 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cleidomastoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000123 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>ceratohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000124 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>ceratohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000125 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis medius left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000126 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis medius right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000127 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis inferior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000128 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis inferior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000129 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricothyroideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000130 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricothyroideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000131 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis superior left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000132 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>constrictor pharyngis superior right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000133 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygopharyngeus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000134 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>pterygopharyngeus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000135 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>palatopharyngeus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000136 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>palatopharyngeus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000137 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator veli palatini left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000138 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator veli palatini right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000139 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>salpingopharyngeus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000140 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>salpingopharyngeus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000141 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>thyroarytenoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000142 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>thyroarytenoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000143 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus lateralis left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000144 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus lateralis right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000145 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>arytenoideus</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000146 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus post left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000147 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus post right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000148 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>geniohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000149 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>geniohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000150 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>genioglossus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000151 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>genioglossus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000152 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>hyoglossus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000153 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>hyoglossus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000154 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>styloglossus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000155 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>styloglossus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000156 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000157 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000158 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>omohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000159 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>omohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000160 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternothryroideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000161 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>sternothryroideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000162 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>thyrohyoideus left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000163 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>thyrohyoideus right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000164 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>depressor septi nasi left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000165 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>depressor septi nasi right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000166 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>nasalis (nasolabialis profundus) left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000167 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>nasalis (nasolabialis profundus) right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000168 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>depressor rhinarii left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000169 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>depressor rhinarii right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000170 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator rhinarii left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000171 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>levator rhinarii right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000172 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus alaris left</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMA_0000173 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MMA_0000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MMA_0000000"/>
+        <rdfs:label>cricoarytenoideus alaris right</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

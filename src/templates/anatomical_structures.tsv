@@ -1,0 +1,176 @@
+ID	LABEL	TYPE	PARENT
+ID	A rdfs:label	TYPE	SC %
+MMA:0000001	occipital	owl:Class	MMA:0000000
+MMA:0000002	parietal left	owl:Class	MMA:0000000
+MMA:0000003	parietal right	owl:Class	MMA:0000000
+MMA:0000004	interparietal	owl:Class	MMA:0000000
+MMA:0000005	squamosal left	owl:Class	MMA:0000000
+MMA:0000006	squamosal right	owl:Class	MMA:0000000
+MMA:0000007	tympanic left	owl:Class	MMA:0000000
+MMA:0000008	tympanic right	owl:Class	MMA:0000000
+MMA:0000009	basisphenoid	owl:Class	MMA:0000000
+MMA:0000010	presphenoid	owl:Class	MMA:0000000
+MMA:0000011	zygomatic left	owl:Class	MMA:0000000
+MMA:0000012	zygomatic right	owl:Class	MMA:0000000
+MMA:0000013	frontal left	owl:Class	MMA:0000000
+MMA:0000014	frontal right	owl:Class	MMA:0000000
+MMA:0000015	ethmoid	owl:Class	MMA:0000000
+MMA:0000016	nasal left	owl:Class	MMA:0000000
+MMA:0000017	nasal right	owl:Class	MMA:0000000
+MMA:0000018	premaxilla left	owl:Class	MMA:0000000
+MMA:0000019	premaxilla right	owl:Class	MMA:0000000
+MMA:0000020	maxilla left	owl:Class	MMA:0000000
+MMA:0000021	maxilla right	owl:Class	MMA:0000000
+MMA:0000022	lacrimal left	owl:Class	MMA:0000000
+MMA:0000023	lacrimal right	owl:Class	MMA:0000000
+MMA:0000024	palatine left	owl:Class	MMA:0000000
+MMA:0000025	palatine right	owl:Class	MMA:0000000
+MMA:0000026	vomer	owl:Class	MMA:0000000
+MMA:0000027	malleus left	owl:Class	MMA:0000000
+MMA:0000028	malleus right	owl:Class	MMA:0000000
+MMA:0000029	incus left	owl:Class	MMA:0000000
+MMA:0000030	incus right	owl:Class	MMA:0000000
+MMA:0000031	stapes left	owl:Class	MMA:0000000
+MMA:0000032	stapes right	owl:Class	MMA:0000000
+MMA:0000033	mandible left	owl:Class	MMA:0000000
+MMA:0000034	mandible right	owl:Class	MMA:0000000
+MMA:0000035	hyoid bone	owl:Class	MMA:0000000
+MMA:0000036	thyroid cartilage	owl:Class	MMA:0000000
+MMA:0000037	arytenoid cartilage left	owl:Class	MMA:0000000
+MMA:0000038	arytenoid cartilage right	owl:Class	MMA:0000000
+MMA:0000039	laryngeal alar cartilage	owl:Class	MMA:0000000
+MMA:0000040	cricoid cartilage	owl:Class	MMA:0000000
+MMA:0000041	sternum	owl:Class	MMA:0000000
+MMA:0000042	clavicle left	owl:Class	MMA:0000000
+MMA:0000043	clavicle right	owl:Class	MMA:0000000
+MMA:0000044	scapula left	owl:Class	MMA:0000000
+MMA:0000045	scapula right	owl:Class	MMA:0000000
+MMA:0000046	vertebrae	owl:Class	MMA:0000000
+MMA:0000047	tensor tympani left	owl:Class	MMA:0000000
+MMA:0000048	tensor tympani right	owl:Class	MMA:0000000
+MMA:0000049	stapedius left	owl:Class	MMA:0000000
+MMA:0000050	stapedius right	owl:Class	MMA:0000000
+MMA:0000051	platysma myoides left	owl:Class	MMA:0000000
+MMA:0000052	platysma myoides right	owl:Class	MMA:0000000
+MMA:0000053	platysma cervicale left	owl:Class	MMA:0000000
+MMA:0000054	platysma cervicale right	owl:Class	MMA:0000000
+MMA:0000055	occipitalis left	owl:Class	MMA:0000000
+MMA:0000056	occipitalis right	owl:Class	MMA:0000000
+MMA:0000057	auricularis posterior left	owl:Class	MMA:0000000
+MMA:0000058	auricularis posterior right	owl:Class	MMA:0000000
+MMA:0000059	mandibulo-auricularis left	owl:Class	MMA:0000000
+MMA:0000060	mandibulo-auricularis right	owl:Class	MMA:0000000
+MMA:0000061	sphincter colli superficialis left	owl:Class	MMA:0000000
+MMA:0000062	sphincter colli superficialis right	owl:Class	MMA:0000000
+MMA:0000063	sphincter colli profundus left	owl:Class	MMA:0000000
+MMA:0000064	sphincter colli profundus right	owl:Class	MMA:0000000
+MMA:0000065	sternofacialis left	owl:Class	MMA:0000000
+MMA:0000066	sternofacialis right	owl:Class	MMA:0000000
+MMA:0000067	interscutularis left	owl:Class	MMA:0000000
+MMA:0000068	interscutularis right	owl:Class	MMA:0000000
+MMA:0000069	zygomaticus major left	owl:Class	MMA:0000000
+MMA:0000070	zygomaticus major right	owl:Class	MMA:0000000
+MMA:0000071	zygomaticus minor left	owl:Class	MMA:0000000
+MMA:0000072	zygomaticus minor right	owl:Class	MMA:0000000
+MMA:0000073	orbito-temporo-auricularis left	owl:Class	MMA:0000000
+MMA:0000074	orbito-temporo-auricularis right	owl:Class	MMA:0000000
+MMA:0000075	orbicularis oculi left	owl:Class	MMA:0000000
+MMA:0000076	orbicularis oculi right	owl:Class	MMA:0000000
+MMA:0000077	buccinatorius left	owl:Class	MMA:0000000
+MMA:0000078	buccinatorius right	owl:Class	MMA:0000000
+MMA:0000079	levator labii sup al nasi (nasolabialis) left	owl:Class	MMA:0000000
+MMA:0000080	levator labii sup al nasi (nasolabialis) right	owl:Class	MMA:0000000
+MMA:0000081	dilatator nasi left	owl:Class	MMA:0000000
+MMA:0000082	dilatator nasi right	owl:Class	MMA:0000000
+MMA:0000083	levator labii sup (max-naso-lab) left	owl:Class	MMA:0000000
+MMA:0000084	levator labii sup (max-naso-lab) right	owl:Class	MMA:0000000
+MMA:0000085	levator anguli oris facialis left	owl:Class	MMA:0000000
+MMA:0000086	levator anguli oris facialis right	owl:Class	MMA:0000000
+MMA:0000087	orbicularis oris left	owl:Class	MMA:0000000
+MMA:0000088	orbicularis oris right	owl:Class	MMA:0000000
+MMA:0000089	mylohyoideus left	owl:Class	MMA:0000000
+MMA:0000090	mylohyoideus right	owl:Class	MMA:0000000
+MMA:0000091	digastricus anterior left	owl:Class	MMA:0000000
+MMA:0000092	digastricus anterior right	owl:Class	MMA:0000000
+MMA:0000093	intermandibularis anterior left	owl:Class	MMA:0000000
+MMA:0000094	intermandibularis anterior right	owl:Class	MMA:0000000
+MMA:0000095	tensor veli palatini left	owl:Class	MMA:0000000
+MMA:0000096	tensor veli palatini right	owl:Class	MMA:0000000
+MMA:0000097	masseter left	owl:Class	MMA:0000000
+MMA:0000098	masseter right	owl:Class	MMA:0000000
+MMA:0000099	temporalis (2 bundles) left	owl:Class	MMA:0000000
+MMA:0000100	temporalis (2 bundles) right	owl:Class	MMA:0000000
+MMA:0000101	pterygoideus lateralis left	owl:Class	MMA:0000000
+MMA:0000102	pterygoideus lateralis right	owl:Class	MMA:0000000
+MMA:0000103	pterygoideus medialis left	owl:Class	MMA:0000000
+MMA:0000104	pterygoideus medialis right	owl:Class	MMA:0000000
+MMA:0000105	stylohyoideus left	owl:Class	MMA:0000000
+MMA:0000106	stylohyoideus right	owl:Class	MMA:0000000
+MMA:0000107	digastricus posterior left	owl:Class	MMA:0000000
+MMA:0000108	digastricus posterior right	owl:Class	MMA:0000000
+MMA:0000109	jugulohyoideus left	owl:Class	MMA:0000000
+MMA:0000110	jugulohyoideus right	owl:Class	MMA:0000000
+MMA:0000111	stylopharyngeus left	owl:Class	MMA:0000000
+MMA:0000112	stylopharyngeus right	owl:Class	MMA:0000000
+MMA:0000113	acromiotrapezius left	owl:Class	MMA:0000000
+MMA:0000114	acromiotrapezius right	owl:Class	MMA:0000000
+MMA:0000115	spinotrapezius left	owl:Class	MMA:0000000
+MMA:0000116	spinotrapezius right	owl:Class	MMA:0000000
+MMA:0000117	cleidooccipitalis (clavotrapezius) left	owl:Class	MMA:0000000
+MMA:0000118	cleidooccipitalis (clavotrapezius) right	owl:Class	MMA:0000000
+MMA:0000119	sternomastoideus left	owl:Class	MMA:0000000
+MMA:0000120	sternomastoideus right	owl:Class	MMA:0000000
+MMA:0000121	cleidomastoideus left	owl:Class	MMA:0000000
+MMA:0000122	cleidomastoideus right	owl:Class	MMA:0000000
+MMA:0000123	ceratohyoideus left	owl:Class	MMA:0000000
+MMA:0000124	ceratohyoideus right	owl:Class	MMA:0000000
+MMA:0000125	constrictor pharyngis medius left	owl:Class	MMA:0000000
+MMA:0000126	constrictor pharyngis medius right	owl:Class	MMA:0000000
+MMA:0000127	constrictor pharyngis inferior left	owl:Class	MMA:0000000
+MMA:0000128	constrictor pharyngis inferior right	owl:Class	MMA:0000000
+MMA:0000129	cricothyroideus left	owl:Class	MMA:0000000
+MMA:0000130	cricothyroideus right	owl:Class	MMA:0000000
+MMA:0000131	constrictor pharyngis superior left	owl:Class	MMA:0000000
+MMA:0000132	constrictor pharyngis superior right	owl:Class	MMA:0000000
+MMA:0000133	pterygopharyngeus left	owl:Class	MMA:0000000
+MMA:0000134	pterygopharyngeus right	owl:Class	MMA:0000000
+MMA:0000135	palatopharyngeus left	owl:Class	MMA:0000000
+MMA:0000136	palatopharyngeus right	owl:Class	MMA:0000000
+MMA:0000137	levator veli palatini left	owl:Class	MMA:0000000
+MMA:0000138	levator veli palatini right	owl:Class	MMA:0000000
+MMA:0000139	salpingopharyngeus left	owl:Class	MMA:0000000
+MMA:0000140	salpingopharyngeus right	owl:Class	MMA:0000000
+MMA:0000141	thyroarytenoideus left	owl:Class	MMA:0000000
+MMA:0000142	thyroarytenoideus right	owl:Class	MMA:0000000
+MMA:0000143	cricoarytenoideus lateralis left	owl:Class	MMA:0000000
+MMA:0000144	cricoarytenoideus lateralis right	owl:Class	MMA:0000000
+MMA:0000145	arytenoideus	owl:Class	MMA:0000000
+MMA:0000146	cricoarytenoideus post left	owl:Class	MMA:0000000
+MMA:0000147	cricoarytenoideus post right	owl:Class	MMA:0000000
+MMA:0000148	geniohyoideus left	owl:Class	MMA:0000000
+MMA:0000149	geniohyoideus right	owl:Class	MMA:0000000
+MMA:0000150	genioglossus left	owl:Class	MMA:0000000
+MMA:0000151	genioglossus right	owl:Class	MMA:0000000
+MMA:0000152	hyoglossus left	owl:Class	MMA:0000000
+MMA:0000153	hyoglossus right	owl:Class	MMA:0000000
+MMA:0000154	styloglossus left	owl:Class	MMA:0000000
+MMA:0000155	styloglossus right	owl:Class	MMA:0000000
+MMA:0000156	sternohyoideus left	owl:Class	MMA:0000000
+MMA:0000157	sternohyoideus right	owl:Class	MMA:0000000
+MMA:0000158	omohyoideus left	owl:Class	MMA:0000000
+MMA:0000159	omohyoideus right	owl:Class	MMA:0000000
+MMA:0000160	sternothryroideus left	owl:Class	MMA:0000000
+MMA:0000161	sternothryroideus right	owl:Class	MMA:0000000
+MMA:0000162	thyrohyoideus left	owl:Class	MMA:0000000
+MMA:0000163	thyrohyoideus right	owl:Class	MMA:0000000
+MMA:0000164	depressor septi nasi left	owl:Class	MMA:0000000
+MMA:0000165	depressor septi nasi right	owl:Class	MMA:0000000
+MMA:0000166	nasalis (nasolabialis profundus) left	owl:Class	MMA:0000000
+MMA:0000167	nasalis (nasolabialis profundus) right	owl:Class	MMA:0000000
+MMA:0000168	depressor rhinarii left	owl:Class	MMA:0000000
+MMA:0000169	depressor rhinarii right	owl:Class	MMA:0000000
+MMA:0000170	levator rhinarii left	owl:Class	MMA:0000000
+MMA:0000171	levator rhinarii right	owl:Class	MMA:0000000
+MMA:0000172	cricoarytenoideus alaris left	owl:Class	MMA:0000000
+MMA:0000173	cricoarytenoideus alaris right	owl:Class	MMA:0000000
+

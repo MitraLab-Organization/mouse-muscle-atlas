@@ -1,0 +1,34 @@
+site_name: Mouse Muscle Atlas (MMA)
+site_description: An ontology for mouse muscle and skeletal anatomy structures
+site_author: MitraLab Organization
+repo_url: https://github.com/MitraLab-Organization/mouse-muscle-atlas
+repo_name: MitraLab-Organization/mouse-muscle-atlas
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - About: 
+    - Overview: about.md
+    - Contributing: contributing.md
+  - Ontology:
+    - Editor Guide: odk-workflows/EditorsWorkflow.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search
+
