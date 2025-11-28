@@ -9,6 +9,11 @@ on:
     branches:
       - main
 
+# Required permissions for gh-pages deployment
+permissions:
+  contents: write
+  pages: write
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
@@ -17,6 +22,8 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
