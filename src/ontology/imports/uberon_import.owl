@@ -1,12 +1,683 @@
-Prefix(:=<http://purl.obolibrary.org/obo/mma/imports/uberon_import.owl>)
-Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(:=<http://purl.obolibrary.org/obo/mma/imports/uberon_import.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
 
 Ontology(<http://purl.obolibrary.org/obo/mma/imports/uberon_import.owl>
-# This is a placeholder, it will be regenerated when makefile is first executed.
+<http://purl.obolibrary.org/obo/mma/releases/2025-11-28/imports/uberon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uberon/releases/2025-08-15/uberon.owl>)
+Annotation(owl:versionInfo "2025-11-28")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_117570>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_117571>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131567>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1338369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1437010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_207598>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32523>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32524>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32525>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33511>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_376913>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_40674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7711>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7742>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8287>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89593>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9347>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9443>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9526>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9604>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9605>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000120>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000121>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000126>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002323>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000103>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000122>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000123>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000124>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000226>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000227>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000228>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000229>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000410>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000420>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000421>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/OMO_0001000>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-5208-3432>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-5839-6798>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-5889-4463>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-6677-8489>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-7258-9596>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-7476-6306>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-7655-4833>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-7920-5321>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-7972-3866>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-8314-2140>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-8415-4848>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-9107-0714>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-9114-8737>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-9897-3238>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-9990-8331>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-0819-0473>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-0956-8634>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-1112-5832>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-1572-1316>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-1604-3078>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-1615-2899>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-1810-9886>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-2061-091X>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-2244-7917>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-2825-0621>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-2908-3327>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-3734-1859>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-5111-7263>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-5378-0931>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-5480-427X>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-6095-8718>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-6443-9376>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-6490-7723>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-6601-2165>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-7073-9172>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-8406-3871>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-8688-6599>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9185-3994>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9415-5104>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9611-1279>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9900-7880>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-1980-3228>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-2034-601X>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-2338-2550>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-2699-3066>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-2804-127X>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-3162-7490>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-3691-0324>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-4423-4370>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.org/dc/terms/license> (license)
+
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/license> "license")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000050> "a core relation that holds between a part and its whole"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002131>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000051> "a core relation that holds between a whole and its part"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BSPO_0000120> (in left side of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000120> "in left side of")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/BSPO_0000126>)
+DisjointObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/BSPO_0000121>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BSPO_0000121> (in right side of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000121> "in right side of")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BSPO_0000121> <http://purl.obolibrary.org/obo/BSPO_0000126>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BSPO_0000126> (in lateral side of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000126> "in lateral side of")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BSPO_0000126> <http://purl.obolibrary.org/obo/BFO_0000050>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002131> (overlaps)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002131> "x overlaps y if and only if there exists some z such that x has part z and z part of y")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "overlaps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "overlaps"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002323> (mereotopologically related to)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002323> "A mereological relationship or a topological relationship")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002323> "mereotopologically related to"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000078> (curation status specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000078> "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000078> "curation status specification"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>))
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000078> <http://purl.obolibrary.org/obo/IAO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000102> (data about an ontology part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000102> "Data about an ontology part is a data item about a part of an ontology, for example a term"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000102> "data about an ontology part"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000102> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000225> (obsolescence reason specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000225> "The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000225> "obsolescence reason specification"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000103> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/OMO_0001000>))
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000225> <http://purl.obolibrary.org/obo/IAO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000409> (denotator type)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000409> "A denotator type indicates how a term should be interpreted from an ontological perspective."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000409> "denotator type"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000420> <http://purl.obolibrary.org/obo/IAO_0000421>))
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000409> <http://purl.obolibrary.org/obo/IAO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1> "root")
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_117570> (Teleostomi)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_117570> "Teleostomi")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_117570> <http://purl.obolibrary.org/obo/NCBITaxon_7776>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_117571> (Euteleostomi)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_117571> "Euteleostomi")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_117571> <http://purl.obolibrary.org/obo/NCBITaxon_117570>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_131567> (cellular organisms)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_131567> "cellular organisms")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://purl.obolibrary.org/obo/NCBITaxon_1>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1338369> (Dipnotetrapodomorpha)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1338369> "Dipnotetrapodomorpha")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1338369> <http://purl.obolibrary.org/obo/NCBITaxon_8287>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1437010> (Boreoeutheria)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1437010> "Boreoeutheria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1437010> <http://purl.obolibrary.org/obo/NCBITaxon_9347>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_207598> (Homininae)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_207598> "Homininae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_207598> <http://purl.obolibrary.org/obo/NCBITaxon_9604>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2759> (Eukaryota)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2759> "Eukaryota")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_314146> (Euarchontoglires)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_314146> "Euarchontoglires")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_314146> <http://purl.obolibrary.org/obo/NCBITaxon_1437010>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_314293> (Simiiformes)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_314293> "Simiiformes")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_314293> <http://purl.obolibrary.org/obo/NCBITaxon_376913>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_314295> (Hominoidea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_314295> "Hominoidea")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_314295> <http://purl.obolibrary.org/obo/NCBITaxon_9526>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_32523> (Tetrapoda)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_32523> "Tetrapoda")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_32523> <http://purl.obolibrary.org/obo/NCBITaxon_1338369>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_32524> (Amniota)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_32524> "Amniota")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_32524> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_32525> (Theria <mammals>)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_32525> "Theria <mammals>")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_32525> <http://purl.obolibrary.org/obo/NCBITaxon_40674>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33154> (Opisthokonta)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33154> "Opisthokonta")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33154> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33208> (Metazoa)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33208> "Metazoa")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33208> <http://purl.obolibrary.org/obo/NCBITaxon_33154>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33213> (Bilateria)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33213> "Bilateria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33213> <http://purl.obolibrary.org/obo/NCBITaxon_6072>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33511> (Deuterostomia)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33511> "Deuterostomia")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33511> <http://purl.obolibrary.org/obo/NCBITaxon_33213>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_376913> (Haplorrhini)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_376913> "Haplorrhini")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_376913> <http://purl.obolibrary.org/obo/NCBITaxon_9443>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_40674> (Mammalia)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_40674> "Mammalia")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_40674> <http://purl.obolibrary.org/obo/NCBITaxon_32524>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_6072> (Eumetazoa)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_6072> "Eumetazoa")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_6072> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_7711> (Chordata)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_7711> "Chordata")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7711> <http://purl.obolibrary.org/obo/NCBITaxon_33511>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_7742> (Vertebrata <vertebrates>)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_7742> "Vertebrata <vertebrates>")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7742> <http://purl.obolibrary.org/obo/NCBITaxon_89593>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_7776> (Gnathostomata <vertebrates>)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_7776> "Gnathostomata <vertebrates>")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7776> <http://purl.obolibrary.org/obo/NCBITaxon_7742>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_8287> (Sarcopterygii)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_8287> "Sarcopterygii")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8287> <http://purl.obolibrary.org/obo/NCBITaxon_117571>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_89593> (Craniata <chordates>)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_89593> "Craniata <chordates>")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_89593> <http://purl.obolibrary.org/obo/NCBITaxon_7711>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9347> (Eutheria)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9347> "Eutheria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9347> <http://purl.obolibrary.org/obo/NCBITaxon_32525>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9443> (Primates)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9443> "Primates")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9443> <http://purl.obolibrary.org/obo/NCBITaxon_314146>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9526> (Catarrhini)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9526> "Catarrhini")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9526> <http://purl.obolibrary.org/obo/NCBITaxon_314293>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9604> (Hominidae)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9604> "Hominidae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9604> <http://purl.obolibrary.org/obo/NCBITaxon_314295>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9605> (Homo)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9605> "Homo")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9605> <http://purl.obolibrary.org/obo/NCBITaxon_207598>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9606> (Homo sapiens)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9606> "Homo sapiens")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/NCBITaxon_9605>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000002> (example to be eventually removed)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000002> "example to be eventually removed"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000103> (failed exploratory term)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000103> "The term was initially used in an attempt to structure part of the ontology, but in retrospect failed to do a good job."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000103> "failed exploratory term"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000120> (metadata complete)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000120> "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000120> "metadata complete"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000121> (organizational term)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000121> "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000121> "organizational term"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000122> (ready for release)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000122> "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000122> "ready for release"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000123> (metadata incomplete)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000123> "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000123> "metadata incomplete"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000124> (uncurated)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000124> "Nothing done yet beyond assigning a unique class ID and proposing a preferred term."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000124> "uncurated"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000125> (pending final vetting)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000125> "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000125> "pending final vetting"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000226> (placeholder removed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000226> "The term was created to temporarily stand in for a semantic purpose, but is no longer needed, typically due to another permanent term being defined."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000226> "placeholder removed"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000227> (terms merged)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000227> "The term has been combined with one or more other terms to create a more encompassing (merged) term."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000227> "terms merged"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000228> (term imported)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000228> "The term has been replaced by a term imported from another ontology."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000228> "term imported"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000229> (term split)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000229> "The term has been split into two or more new terms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000229> "term split"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000410> (universal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000410> "universal"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000420> (defined class)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000420> "A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000420> "defined class"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000421> (named class expression)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000421> "A named class expression is a logical expression that is given a name. The name can be used in place of the expression."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000421> "named class expression"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000423> (to be replaced with external ontology term)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000423> "Terms with this status should eventually replaced with a term from another ontology."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000423> "to be replaced with external ontology term"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/IAO_0000428> (requires discussion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000428> "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000428> "requires discussion"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/OMO_0001000> (out of scope)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0001000> "The term was added to the ontology on the assumption it was in scope, but it turned out later that it was not."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0001000> "out of scope")
+
+# Individual: <https://orcid.org/0000-0001-5208-3432> (<https://orcid.org/0000-0001-5208-3432>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-5208-3432>)
+
+# Individual: <https://orcid.org/0000-0001-5839-6798> (<https://orcid.org/0000-0001-5839-6798>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-5839-6798>)
+
+# Individual: <https://orcid.org/0000-0001-5889-4463> (<https://orcid.org/0000-0001-5889-4463>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-5889-4463>)
+
+# Individual: <https://orcid.org/0000-0001-6677-8489> (<https://orcid.org/0000-0001-6677-8489>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-6677-8489>)
+
+# Individual: <https://orcid.org/0000-0001-7258-9596> (<https://orcid.org/0000-0001-7258-9596>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-7258-9596>)
+
+# Individual: <https://orcid.org/0000-0001-7476-6306> (<https://orcid.org/0000-0001-7476-6306>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-7476-6306>)
+
+# Individual: <https://orcid.org/0000-0001-7655-4833> (<https://orcid.org/0000-0001-7655-4833>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-7655-4833>)
+
+# Individual: <https://orcid.org/0000-0001-7920-5321> (<https://orcid.org/0000-0001-7920-5321>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-7920-5321>)
+
+# Individual: <https://orcid.org/0000-0001-7972-3866> (<https://orcid.org/0000-0001-7972-3866>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-7972-3866>)
+
+# Individual: <https://orcid.org/0000-0001-8314-2140> (<https://orcid.org/0000-0001-8314-2140>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-8314-2140>)
+
+# Individual: <https://orcid.org/0000-0001-8415-4848> (<https://orcid.org/0000-0001-8415-4848>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-8415-4848>)
+
+# Individual: <https://orcid.org/0000-0001-9107-0714> (<https://orcid.org/0000-0001-9107-0714>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9107-0714>)
+
+# Individual: <https://orcid.org/0000-0001-9114-8737> (<https://orcid.org/0000-0001-9114-8737>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9114-8737>)
+
+# Individual: <https://orcid.org/0000-0001-9897-3238> (<https://orcid.org/0000-0001-9897-3238>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9897-3238>)
+
+# Individual: <https://orcid.org/0000-0001-9990-8331> (<https://orcid.org/0000-0001-9990-8331>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9990-8331>)
+
+# Individual: <https://orcid.org/0000-0002-0819-0473> (<https://orcid.org/0000-0002-0819-0473>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-0819-0473>)
+
+# Individual: <https://orcid.org/0000-0002-0956-8634> (<https://orcid.org/0000-0002-0956-8634>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-0956-8634>)
+
+# Individual: <https://orcid.org/0000-0002-1112-5832> (<https://orcid.org/0000-0002-1112-5832>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-1112-5832>)
+
+# Individual: <https://orcid.org/0000-0002-1572-1316> (<https://orcid.org/0000-0002-1572-1316>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-1572-1316>)
+
+# Individual: <https://orcid.org/0000-0002-1604-3078> (<https://orcid.org/0000-0002-1604-3078>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-1604-3078>)
+
+# Individual: <https://orcid.org/0000-0002-1615-2899> (<https://orcid.org/0000-0002-1615-2899>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-1615-2899>)
+
+# Individual: <https://orcid.org/0000-0002-1810-9886> (<https://orcid.org/0000-0002-1810-9886>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-1810-9886>)
+
+# Individual: <https://orcid.org/0000-0002-2061-091X> (<https://orcid.org/0000-0002-2061-091X>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-2061-091X>)
+
+# Individual: <https://orcid.org/0000-0002-2244-7917> (<https://orcid.org/0000-0002-2244-7917>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-2244-7917>)
+
+# Individual: <https://orcid.org/0000-0002-2825-0621> (<https://orcid.org/0000-0002-2825-0621>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-2825-0621>)
+
+# Individual: <https://orcid.org/0000-0002-2908-3327> (<https://orcid.org/0000-0002-2908-3327>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-2908-3327>)
+
+# Individual: <https://orcid.org/0000-0002-3734-1859> (<https://orcid.org/0000-0002-3734-1859>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-3734-1859>)
+
+# Individual: <https://orcid.org/0000-0002-5111-7263> (<https://orcid.org/0000-0002-5111-7263>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-5111-7263>)
+
+# Individual: <https://orcid.org/0000-0002-5378-0931> (<https://orcid.org/0000-0002-5378-0931>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-5378-0931>)
+
+# Individual: <https://orcid.org/0000-0002-5480-427X> (<https://orcid.org/0000-0002-5480-427X>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-5480-427X>)
+
+# Individual: <https://orcid.org/0000-0002-6095-8718> (<https://orcid.org/0000-0002-6095-8718>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-6095-8718>)
+
+# Individual: <https://orcid.org/0000-0002-6443-9376> (<https://orcid.org/0000-0002-6443-9376>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-6443-9376>)
+
+# Individual: <https://orcid.org/0000-0002-6490-7723> (<https://orcid.org/0000-0002-6490-7723>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-6490-7723>)
+
+# Individual: <https://orcid.org/0000-0002-6601-2165> (<https://orcid.org/0000-0002-6601-2165>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-6601-2165>)
+
+# Individual: <https://orcid.org/0000-0002-7073-9172> (<https://orcid.org/0000-0002-7073-9172>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-7073-9172>)
+
+# Individual: <https://orcid.org/0000-0002-8406-3871> (<https://orcid.org/0000-0002-8406-3871>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-8406-3871>)
+
+# Individual: <https://orcid.org/0000-0002-8688-6599> (<https://orcid.org/0000-0002-8688-6599>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-8688-6599>)
+
+# Individual: <https://orcid.org/0000-0002-9185-3994> (<https://orcid.org/0000-0002-9185-3994>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-9185-3994>)
+
+# Individual: <https://orcid.org/0000-0002-9415-5104> (<https://orcid.org/0000-0002-9415-5104>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-9415-5104>)
+
+# Individual: <https://orcid.org/0000-0002-9611-1279> (<https://orcid.org/0000-0002-9611-1279>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-9611-1279>)
+
+# Individual: <https://orcid.org/0000-0002-9900-7880> (<https://orcid.org/0000-0002-9900-7880>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0002-9900-7880>)
+
+# Individual: <https://orcid.org/0000-0003-1980-3228> (<https://orcid.org/0000-0003-1980-3228>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-1980-3228>)
+
+# Individual: <https://orcid.org/0000-0003-2034-601X> (<https://orcid.org/0000-0003-2034-601X>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-2034-601X>)
+
+# Individual: <https://orcid.org/0000-0003-2338-2550> (<https://orcid.org/0000-0003-2338-2550>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-2338-2550>)
+
+# Individual: <https://orcid.org/0000-0003-2699-3066> (<https://orcid.org/0000-0003-2699-3066>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-2699-3066>)
+
+# Individual: <https://orcid.org/0000-0003-2804-127X> (<https://orcid.org/0000-0003-2804-127X>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-2804-127X>)
+
+# Individual: <https://orcid.org/0000-0003-3162-7490> (<https://orcid.org/0000-0003-3162-7490>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-3162-7490>)
+
+# Individual: <https://orcid.org/0000-0003-3691-0324> (<https://orcid.org/0000-0003-3691-0324>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-3691-0324>)
+
+# Individual: <https://orcid.org/0000-0003-4423-4370> (<https://orcid.org/0000-0003-4423-4370>)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-4423-4370>)
+
+
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>) <http://purl.obolibrary.org/obo/RO_0002131>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
 )
