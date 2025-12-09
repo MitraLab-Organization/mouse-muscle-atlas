@@ -189,7 +189,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Masseter)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Masseter</rdfs:label>
     </owl:Class>
 
@@ -203,7 +203,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Superficial masseter)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Superficial masseter</rdfs:label>
     </owl:Class>
 
@@ -217,7 +217,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Deep masseter)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Deep masseter</rdfs:label>
     </owl:Class>
 
@@ -231,7 +231,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Zygomaticomandibularis)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Zygomaticomandibularis</rdfs:label>
     </owl:Class>
 
@@ -251,7 +251,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Temporalis)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Temporalis</rdfs:label>
     </owl:Class>
 
@@ -265,7 +265,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Pterygoid lateralis)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Pterygoid lateralis</rdfs:label>
     </owl:Class>
 
@@ -279,7 +279,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication (Pterygoid medialis)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Pterygoid medialis</rdfs:label>
     </owl:Class>
 
@@ -320,7 +320,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone (Stylohyoideus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Stylohyoideus</rdfs:label>
     </owl:Class>
 
@@ -334,7 +334,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone (Digastricus posterior)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Digastricus posterior</rdfs:label>
     </owl:Class>
 
@@ -362,7 +362,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck (Platysma cervicale)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma cervicale</rdfs:label>
     </owl:Class>
 
@@ -376,7 +376,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck (Platysma myoides)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma myoides</rdfs:label>
     </owl:Class>
 
@@ -817,7 +817,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement (Genioglossus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Genioglossus</rdfs:label>
     </owl:Class>
 
@@ -837,7 +837,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement (Hyoglossus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Hyoglossus</rdfs:label>
     </owl:Class>
 
@@ -845,7 +845,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement (Styloglossus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Styloglossus</rdfs:label>
     </owl:Class>
 
@@ -853,7 +853,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hyoid depression (Sternohyoideus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Sternohyoideus</rdfs:label>
     </owl:Class>
 
@@ -861,7 +861,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hyoid depression (Omohyoideus)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Omohyoideus</rdfs:label>
     </owl:Class>
 
