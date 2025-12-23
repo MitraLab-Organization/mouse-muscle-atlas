@@ -10,42 +10,24 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/BAP_">
-        <dcterms:description>Anatomical atlas ontology for Mouse (Mus musculus) - Generated from groundtruth-db</dcterms:description>
         <dcterms:title>bap-mousehead Anatomical Atlas</dcterms:title>
+        <dcterms:description>Anatomical atlas ontology for Mouse (Mus musculus)</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <owl:versionInfo>v1</owl:versionInfo>
     </owl:Ontology>
 
-    <!-- Annotation properties -->
-
+    <!-- Annotation Properties -->
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
-    </owl:AnnotationProperty>
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:label>license</rdfs:label>
-    </owl:AnnotationProperty>
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
 
     <!-- Object Properties -->
-
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label>part of</rdfs:label>
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label>has part</rdfs:label>
     </owl:ObjectProperty>
 
@@ -65,90 +47,86 @@
         <rdfs:label>adjacent to</rdfs:label>
     </owl:ObjectProperty>
 
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+        <rdfs:label>developmental origin</rdfs:label>
+    </owl:ObjectProperty>
+
     <!-- Classes (Anatomical Structures) -->
-
     <!-- http://purl.obolibrary.org/obo/BAP_000001 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012000"/>
         <rdfs:label xml:lang="en">Head</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000002 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012000"/>
         <rdfs:label xml:lang="en">Neck</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000003 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012001"/>
         <rdfs:label xml:lang="en">Thorax</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000004 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000004">
-        <rdfs:label xml:lang="en">Anterior extremities</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000006"/>
+        <rdfs:label xml:lang="en">Forelimb</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000005 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000005">
-        <rdfs:label xml:lang="en">Posterior extremities</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000006"/>
+        <rdfs:label xml:lang="en">Hindlimb</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000006 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012000"/>
         <rdfs:label xml:lang="en">Appendages</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000007 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
-        <rdfs:label xml:lang="en">Jaw</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">Jaw apparatus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000008 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
         <rdfs:label xml:lang="en">Eye</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000009 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
         <rdfs:label xml:lang="en">Ear</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000010 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
         <rdfs:label xml:lang="en">Nose</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000011 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000006"/>
         <rdfs:label xml:lang="en">Tail</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000012 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000006"/>
         <rdfs:label xml:lang="en">Whiskers</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000013 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -160,9 +138,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000014 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -174,9 +151,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000015 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -189,56 +165,52 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Masseter)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Masseter</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000016 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Superficial masseter)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Superficial masseter</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000017 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Deep masseter)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Deep masseter</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000018 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Zygomaticomandibularis)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Zygomaticomandibularis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000019 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -251,40 +223,37 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Temporalis)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Temporalis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000020 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Pterygoid lateralis)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pterygoid lateralis</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pterygoideus lateralis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000021 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication (Pterygoid medialis)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pterygoid medialis</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pterygoideus medialis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000022 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
         <rdfs:subClassOf>
@@ -297,7 +266,6 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000023 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
         <rdfs:subClassOf>
@@ -311,35 +279,32 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000024 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone (Stylohyoideus)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Elevate hyoid bone</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Stylohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000025 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">elevate hyoid bone (Digastricus posterior)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Elevate hyoid bone</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Digastricus posterior</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000026 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
         <rdfs:subClassOf>
@@ -348,56 +313,52 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">stabelize stapes bone</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Stabelize stapes bone</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Stapedius</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000027 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck (Platysma cervicale)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma cervicale</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000028 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck (Platysma myoides)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma myoides</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000029 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">scalp movment</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Scalp movment</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Occipitalis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000030 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -408,9 +369,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000031 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -421,9 +381,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000032 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -434,9 +393,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000033 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -447,9 +405,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000034 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -460,9 +417,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000035 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -473,9 +429,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000036 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -486,9 +441,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000037 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -499,9 +453,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000038 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -512,9 +465,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000039 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -525,9 +477,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000040 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -538,9 +489,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000041 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -551,9 +501,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000042 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -564,9 +513,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000043 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -577,9 +525,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000044 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -590,9 +537,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000045 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -603,9 +549,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000046 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -616,9 +561,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000047 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -629,9 +573,8 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000048 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -642,14 +585,12 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000049 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:label xml:lang="en">Ceratohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000050 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:subClassOf>
@@ -662,149 +603,128 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000051 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000050"/>
         <rdfs:label xml:lang="en">Acromiotrapezius</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000052 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000050"/>
         <rdfs:label xml:lang="en">Spinotrapezius</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000053 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:label xml:lang="en">Cleidooccipitalis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000054 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:label xml:lang="en">Cleidomastoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000055 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:label xml:lang="en">Sternomastoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000056 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
-        <rdfs:label xml:lang="en">Constrictor pharyngeus superior</rdfs:label>
+        <rdfs:label xml:lang="en">Constrictor pharyngis superior</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000057 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
-        <rdfs:label xml:lang="en">Constrictor pharyngeus medius</rdfs:label>
+        <rdfs:label xml:lang="en">Constrictor pharyngis medius</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000058 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
-        <rdfs:label xml:lang="en">Constrictor pharyngeus inferior</rdfs:label>
+        <rdfs:label xml:lang="en">Constrictor pharyngis inferior</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000059 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
-        <rdfs:label xml:lang="en">Cricithyroideus</rdfs:label>
+        <rdfs:label xml:lang="en">Cricothyroideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000060 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
         <rdfs:label xml:lang="en">Pterygopharyngeus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000061 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
         <rdfs:label xml:lang="en">Palatopharyngeus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000062 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
-        <rdfs:label xml:lang="en">Musculus uvulae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
+        <rdfs:label xml:lang="en">Jugulohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000063 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
         <rdfs:label xml:lang="en">Levator veli palatini</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000064 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
         <rdfs:label xml:lang="en">Salpingopharyngeus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000065 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
         <rdfs:label xml:lang="en">Thyroarytenoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000066 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
         <rdfs:label xml:lang="en">Cricoarytenoideus alaris</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000067 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
         <rdfs:label xml:lang="en">Cricoarytenoideus lateralis</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000068 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
         <rdfs:label xml:lang="en">Cricoarytenoideus posterior</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000069 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
         <rdfs:label xml:lang="en">Arytenoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000070 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
         <rdfs:label xml:lang="en">Geniohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000071 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -817,14 +737,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement (Genioglossus)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Genioglossus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000072 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002005"/>
@@ -837,36 +756,32 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement (Hyoglossus)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Hyoglossus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000073 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement (Styloglossus)</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Styloglossus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000074 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression (Sternohyoideus)</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
+        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Sternohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000075 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression (Omohyoideus)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Omohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000076 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Thyroid cartilage depression</obo:IAO_0000115>
@@ -874,7 +789,6 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000077 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Hyoid depression, thyroid elevation</obo:IAO_0000115>
@@ -882,69 +796,527 @@
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000078 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:label xml:lang="en">Larynx</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000079 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <rdfs:label xml:lang="en">Pharynx</rdfs:label>
     </owl:Class>
 
-    <!-- http://purl.obolibrary.org/obo/BAP_001000 -->
+    <!-- http://purl.obolibrary.org/obo/BAP_000080 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000019"/>
+        <rdfs:label xml:lang="en">Temporalis lateralis</rdfs:label>
+    </owl:Class>
 
+    <!-- http://purl.obolibrary.org/obo/BAP_000081 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000019"/>
+        <rdfs:label xml:lang="en">Temporalis medialis</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000082 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
+        <rdfs:label xml:lang="en">Frontalis</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000083 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
+        <rdfs:label xml:lang="en">Esophagus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000084 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
+        <rdfs:label xml:lang="en">sternofacialis left</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000085 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">levator palpebrae superioris</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000086 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">superior oblique muscle</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000087 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000086"/>
+        <rdfs:label xml:lang="en">superior oblique tendon</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000088 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">trochlea</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000089 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">inferior oblique</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000090 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">lateral rectus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000091 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">medial rectus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000092 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">superior rectus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000093 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000008"/>
+        <rdfs:label xml:lang="en">retractor bulbi</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000095 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">Pinna</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000096 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">external acoustic meatus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000097 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">internal acoustic meatus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000098 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">Auricularis posterior</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000099 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">Auricularis anterior</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000100 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">Auricularis superior</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000101 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <rdfs:label xml:lang="en">Palatoglossus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000102 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:label xml:lang="en">Tongue</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000103 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <rdfs:label xml:lang="en">Superior longitudinal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000104 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <rdfs:label xml:lang="en">Inferior longitudinal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000105 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <rdfs:label xml:lang="en">Transverse</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000106 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
+        <rdfs:label xml:lang="en">Vertical</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000107 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
+        <rdfs:label xml:lang="en">epiglottis</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000108 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">stapes</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000109 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
+        <rdfs:label xml:lang="en">arytenoid cartilage</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000110 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
+        <rdfs:label xml:lang="en">laryngeal alar cartilage</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000111 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">sphenoid</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000112 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">incus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000113 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">malleus</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000114 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000009"/>
+        <rdfs:label xml:lang="en">tympanic</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000115 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">occipital</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000116 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">parietal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000117 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">squamosal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000118 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">mandible</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000119 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">zygomatic</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000120 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">lacrimal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000121 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">maxilla</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000122 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">frontal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000123 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000010"/>
+        <rdfs:label xml:lang="en">nasal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000124 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">premaxilla</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000125 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">interparietal</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000126 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000079"/>
+        <rdfs:label xml:lang="en">hyoid bone</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000127 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
+        <rdfs:label xml:lang="en">thyroid cartilage</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000128 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000078"/>
+        <rdfs:label xml:lang="en">cricoid cartilage</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000129 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000003"/>
+        <rdfs:label xml:lang="en">sternum</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000130 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000004"/>
+        <rdfs:label xml:lang="en">clavicle</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000131 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000004"/>
+        <rdfs:label xml:lang="en">scapula</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000132 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
+        <rdfs:label xml:lang="en">cervical vertebra</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000133 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">basisphenoid</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000134 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">ethmoid</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000135 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000139"/>
+        <rdfs:label xml:lang="en">palatine</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000136 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000138"/>
+        <rdfs:label xml:lang="en">presphenoid</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000137 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000010"/>
+        <rdfs:label xml:lang="en">vomer</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000138 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:label xml:lang="en">Neurocranium</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_000139 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <rdfs:label xml:lang="en">Viscerocranium</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_001000 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
         <rdfs:label xml:lang="en">Facial nerve</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_001001 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_001001">
-        <rdfs:label xml:lang="en">Glossopharyngeus nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <rdfs:label xml:lang="en">Glossopharyngeal nerve</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_001002 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_001002">
-        <rdfs:label xml:lang="en">Hypoglosssus nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <rdfs:label xml:lang="en">Hypoglossal nerve</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_001003 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_001003">
-        <rdfs:label xml:lang="en">Spinal acessory nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <rdfs:label xml:lang="en">Accessory nerve</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_001004 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
         <rdfs:label xml:lang="en">Trigeminal nerve</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_002000 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_002000">
         <rdfs:label xml:lang="en">Lingual artery</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_002001 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_002001">
         <rdfs:label xml:lang="en">Maxillary artery</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_002002 -->
-
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_002002">
         <rdfs:label xml:lang="en">Temporal artery</rdfs:label>
     </owl:Class>
 
+    <!-- http://purl.obolibrary.org/obo/BAP_012000 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012000">
+        <obo:IAO_0000115 xml:lang="en">Root structure for the entire body</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Body</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012001 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012000"/>
+        <obo:IAO_0000115 xml:lang="en">Central body region containing thorax, abdomen, and pelvis</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Trunk</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012002 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012001"/>
+        <obo:IAO_0000115 xml:lang="en">Abdominal region of the trunk</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Abdomen</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012003 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012001"/>
+        <obo:IAO_0000115 xml:lang="en">Pelvic region of the trunk</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pelvis</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012004 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <obo:IAO_0000115 xml:lang="en">Central nervous system organ in the head</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Brain</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012005 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <obo:IAO_0000115 xml:lang="en">Central nervous system structure extending from brain</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Spinal Cord</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012006 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <obo:IAO_0000115 xml:lang="en">Group of nerves emerging directly from the brain</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Cranial Nerves</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012007 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000001"/>
+        <obo:IAO_0000115 xml:lang="en">Muscles of the head region</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Head Muscles</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012020 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Cranial nerve zero, associated with pheromone detection</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Terminal nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012021 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">First cranial nerve, sensory for smell</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Olfactory nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012022 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Second cranial nerve, sensory for vision</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Optic nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012023 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Third cranial nerve, motor for eye movement</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Oculomotor nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012024 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Fourth cranial nerve, motor for superior oblique muscle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Trochlear nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012025 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Sixth cranial nerve, motor for lateral rectus muscle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Abducens nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012026 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Eighth cranial nerve, sensory for hearing and balance</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Vestibulocochlear nerve</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/BAP_012027 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_012027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012006"/>
+        <obo:IAO_0000115 xml:lang="en">Tenth cranial nerve, mixed nerve for visceral functions</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Vagus nerve</rdfs:label>
+    </owl:Class>
+
 </rdf:RDF>
 
-
-
-<!-- Generated by OWL Generator for groundtruth-db -->
+<!-- Generated by BAP Mousehead Atlas API -->
