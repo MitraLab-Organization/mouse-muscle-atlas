@@ -165,7 +165,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Primary muscle of mastication; elevates and protrudes the mandible</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Masseter</rdfs:label>
     </owl:Class>
 
@@ -178,7 +178,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Superficial portion of masseter; elevates and protrudes mandible</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Superficial masseter</rdfs:label>
     </owl:Class>
 
@@ -191,7 +191,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Deep portion of masseter; elevates mandible with vertical force</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Deep masseter</rdfs:label>
     </owl:Class>
 
@@ -204,7 +204,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Accessory masticatory muscle; assists in jaw elevation</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Zygomaticomandibularis</rdfs:label>
     </owl:Class>
 
@@ -223,7 +223,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Muscle of mastication; elevates and retracts the mandible</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Temporalis</rdfs:label>
     </owl:Class>
 
@@ -236,7 +236,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Muscle of mastication; protrudes mandible and assists lateral movement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Pterygoideus lateralis</rdfs:label>
     </owl:Class>
 
@@ -249,7 +249,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Mastication</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Muscle of mastication; elevates mandible and assists grinding motion</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Pterygoideus medialis</rdfs:label>
     </owl:Class>
 
@@ -287,7 +287,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Elevate hyoid bone</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Suprahyoid muscle; elevates and retracts the hyoid bone</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Stylohyoideus</rdfs:label>
     </owl:Class>
 
@@ -300,7 +300,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Elevate hyoid bone</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Suprahyoid muscle; elevates hyoid bone and assists jaw opening</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Digastricus posterior</rdfs:label>
     </owl:Class>
 
@@ -326,7 +326,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Superficial cervical muscle; tenses skin of the anterior neck</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma cervicale</rdfs:label>
     </owl:Class>
 
@@ -339,7 +339,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_001000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tenses skin of neck</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Superficial facial muscle; tenses skin of the lower face and neck</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Platysma myoides</rdfs:label>
     </owl:Class>
 
@@ -737,7 +737,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Extrinsic tongue muscle; protrudes and depresses the tongue</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Genioglossus</rdfs:label>
     </owl:Class>
 
@@ -756,28 +756,28 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BAP_002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Extrinsic tongue muscle; depresses and retracts the tongue</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Hyoglossus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000073 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000102"/>
-        <obo:IAO_0000115 xml:lang="en">Tongue movement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Extrinsic tongue muscle; retracts and elevates the tongue</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Styloglossus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000074 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_012007"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Infrahyoid muscle; depresses hyoid bone after swallowing</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Sternohyoideus</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_000075 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
-        <obo:IAO_0000115 xml:lang="en">Hyoid depression</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Infrahyoid muscle; depresses hyoid bone and stabilizes during speech</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Omohyoideus</rdfs:label>
     </owl:Class>
 
