@@ -387,14 +387,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Musculoskeletal structures of the head including muscles and cranium</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Musculoskeletal system</rdfs:label>
+        <rdfs:label xml:lang="en">Head musculoskeletal system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020002 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Neural structures of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Head nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020003 -->
@@ -415,14 +415,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Glandular structures of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Endocrine and exocrine system</rdfs:label>
+        <rdfs:label xml:lang="en">Head endocrine and exocrine system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020006 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Anatomical spaces and passages of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Cavities and passages</rdfs:label>
+        <rdfs:label xml:lang="en">Head cavities and passages</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020007 -->
@@ -443,14 +443,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020002"/>
         <obo:IAO_0000115 xml:lang="en">Peripheral nerves of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Peripheral nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Head peripheral nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020202 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020002"/>
         <obo:IAO_0000115 xml:lang="en">Central nervous system structures in the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Central nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Head central nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020401 -->
@@ -485,14 +485,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Musculoskeletal structures of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Musculoskeletal system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck musculoskeletal system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021002 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Neural structures of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021003 -->
@@ -506,14 +506,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Glandular structures of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Endocrine and exocrine system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck endocrine and exocrine system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021005 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Anatomical passages of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Cavities and passages</rdfs:label>
+        <rdfs:label xml:lang="en">Neck cavities and passages</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021006 -->
@@ -541,14 +541,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021002"/>
         <obo:IAO_0000115 xml:lang="en">Peripheral nerves of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Peripheral nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck peripheral nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021203 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021002"/>
         <obo:IAO_0000115 xml:lang="en">Central nervous system structures in the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Central nervous system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck central nervous system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021401 -->
