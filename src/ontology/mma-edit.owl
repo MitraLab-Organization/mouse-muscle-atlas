@@ -408,7 +408,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Blood vessels and lymphatics of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Vascular system</rdfs:label>
+        <rdfs:label xml:lang="en">Head vascular system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020005 -->
@@ -429,7 +429,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0020007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Skin and external structures of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Integumentary system</rdfs:label>
+        <rdfs:label xml:lang="en">Head integumentary system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0020101 -->
@@ -499,7 +499,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Blood vessels and lymphatics of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Vascular system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck vascular system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021004 -->
@@ -520,7 +520,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_000002"/>
         <obo:IAO_0000115 xml:lang="en">Skin of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Integumentary system</rdfs:label>
+        <rdfs:label xml:lang="en">Neck integumentary system</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021101 -->
@@ -681,28 +681,28 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021718">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020004"/>
         <obo:IAO_0000115 xml:lang="en">Left venous drainage of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Veins (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Head veins (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021719 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021719">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020004"/>
         <obo:IAO_0000115 xml:lang="en">Right venous drainage of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Veins (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Head veins (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021720 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021720">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020004"/>
         <obo:IAO_0000115 xml:lang="en">Left lymphatic structures of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Lymphatics (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Head lymphatics (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021721 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021721">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020004"/>
         <obo:IAO_0000115 xml:lang="en">Right lymphatic structures of the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Lymphatics (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Head lymphatics (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021722 -->
@@ -751,14 +751,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021728">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020007"/>
         <obo:IAO_0000115 xml:lang="en">Left skin covering the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Skin (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Head skin (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021729 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021729">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0020007"/>
         <obo:IAO_0000115 xml:lang="en">Right skin covering the head</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Skin (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Head skin (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021730 -->
@@ -793,56 +793,56 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021734">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Left arterial blood supply to the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Arteries (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck arteries (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021735 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021735">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Right arterial blood supply to the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Arteries (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck arteries (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021736 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021736">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Left venous drainage of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Veins (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck veins (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021737 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021737">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Right venous drainage of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Veins (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck veins (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021738 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021738">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Left lymphatic structures of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Lymphatics (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck lymphatics (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021739 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021739">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021003"/>
         <obo:IAO_0000115 xml:lang="en">Right lymphatic structures of the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Lymphatics (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck lymphatics (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021740 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021740">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021006"/>
         <obo:IAO_0000115 xml:lang="en">Left skin covering the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Skin (L)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck skin (L)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021741 -->
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAP_0021741">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BAP_0021006"/>
         <obo:IAO_0000115 xml:lang="en">Right skin covering the neck</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Skin (R)</rdfs:label>
+        <rdfs:label xml:lang="en">Neck skin (R)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/BAP_0021742 -->
