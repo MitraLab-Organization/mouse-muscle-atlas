@@ -8,7 +8,7 @@ More information can be found at http://obofoundry.org/ontology/mma
 
 ## Versions
 
-### Stable release versions
+### Stable release versions (Latest)
 
 The latest version of the ontology can always be found at:
 
