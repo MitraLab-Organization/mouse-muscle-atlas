@@ -107,6 +107,7 @@
     .node-header.match {
       background: var(--bg-match);
       color: #7bc97b;
+      scroll-margin-top: 6rem;
     }
     .node-header.match .id { color: #8fd68f; }
     .node-header.highlight { background: var(--bg-highlight); }
@@ -215,6 +216,7 @@
       const q = e.target.value.trim().toLowerCase();
       const treeEl = document.getElementById('tree');
       const headers = treeEl.querySelectorAll('.node-header');
+      let firstMatch = null;
       headers.forEach(h => {
         h.classList.remove('match', 'highlight');
         const name = (data.structures[h.dataset.id]?.name || '').toLowerCase();
@@ -226,6 +228,7 @@
           if (t && !t.classList.contains('empty')) t.textContent = ICON_EXPANDED;
         } else if (name.includes(q) || id.includes(q)) {
           h.classList.add('match');
+          if (!firstMatch) firstMatch = h;
           h.closest('.children')?.classList.remove('collapsed');
           let p = h.closest('.children');
           while (p) {
@@ -236,6 +239,16 @@
           }
         }
       });
+      if (firstMatch) {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            const rect = firstMatch.getBoundingClientRect();
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const targetY = scrollTop + rect.top - 80;
+            window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+          });
+        });
+      }
     });
 
     loadData().catch(err => {
