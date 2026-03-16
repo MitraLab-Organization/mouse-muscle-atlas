@@ -20,6 +20,7 @@ nav:
     - Overview: about.md
     - Contributing: contributing.md
   - Ontology:
+    - Hierarchy Tree: ontology-tree.html
     - Editor Guide: odk-workflows/EditorsWorkflow.md
 
 markdown_extensions:

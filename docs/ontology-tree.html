@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ontology Tree - Mouse Muscle Atlas</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 1rem; background: #1e1e1e; color: #e0e0e0; }
+    h1 { margin-top: 0; }
+    .search { margin-bottom: 1rem; }
+    .search input { width: 100%; max-width: 400px; padding: 0.5rem 1rem; font-size: 1rem; border: 1px solid #444; border-radius: 4px; background: #2d2d2d; color: #e0e0e0; }
+    .search input:focus { outline: none; border-color: #58a6ff; }
+    .tree { font-size: 0.9rem; }
+    .node { margin: 0.1rem 0; }
+    .node-header { cursor: pointer; padding: 0.25rem 0.5rem; border-radius: 4px; display: flex; align-items: center; gap: 0.5rem; }
+    .node-header:hover { background: #333; }
+    .node-header.match { background: #2d5016; }
+    .node-header.highlight { background: #1a3a5c; }
+    .toggle { width: 1rem; text-align: center; user-select: none; }
+    .toggle.empty { visibility: hidden; }
+    .name { flex: 1; }
+    .id { font-size: 0.8em; color: #888; }
+    .children { margin-left: 1.25rem; border-left: 1px solid #333; padding-left: 0.5rem; }
+    .children.collapsed { display: none; }
+    .stats { color: #888; font-size: 0.9em; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Ontology Tree</h1>
+  <p class="stats">Loading...</p>
+  <div class="search">
+    <input type="text" id="search" placeholder="Search by name or ID (e.g. Brain, BAP_0012004)...">
+  </div>
+  <div id="tree" class="tree"></div>
+
+  <script>
+    let data = null;
+
+    async function loadData() {
+      const res = await fetch('ontology-tree.json');
+      data = await res.json();
+      document.querySelector('.stats').textContent = `${Object.keys(data.structures).length} structures`;
+      renderTree(data.tree, document.getElementById('tree'));
+    }
+
+    function renderTree(nodes, container, depth = 0) {
+      container.innerHTML = '';
+      for (const node of nodes) {
+        const div = document.createElement('div');
+        div.className = 'node';
+        const hasChildren = node.children && node.children.length > 0;
+        const header = document.createElement('div');
+        header.className = 'node-header';
+        header.dataset.id = node.id;
+        header.innerHTML = `
+          <span class="toggle ${hasChildren ? '' : 'empty'}">${hasChildren ? '&#9660;' : ''}</span>
+          <span class="name">${escapeHtml(node.name)}</span>
+          <span class="id">${node.id}</span>
+        `;
+        if (node.definition) {
+          header.title = node.definition;
+        }
+        div.appendChild(header);
+
+        if (hasChildren) {
+          const childrenDiv = document.createElement('div');
+          childrenDiv.className = 'children' + (depth >= 2 ? ' collapsed' : '');
+          renderTree(node.children, childrenDiv, depth + 1);
+          div.appendChild(childrenDiv);
+          if (depth >= 2) header.querySelector('.toggle').textContent = '&#9654;';
+
+          header.addEventListener('click', () => {
+            childrenDiv.classList.toggle('collapsed');
+            header.querySelector('.toggle').textContent = childrenDiv.classList.contains('collapsed') ? '&#9654;' : '&#9660;';
+          });
+        }
+
+        container.appendChild(div);
+      }
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    function collectNodes(container, list = []) {
+      for (const h of container.querySelectorAll('.node-header')) {
+        list.push({ el: h, name: data.structures[h.dataset.id]?.name || '', id: h.dataset.id });
+      }
+      return list;
+    }
+
+    document.getElementById('search').addEventListener('input', (e) => {
+      const q = e.target.value.trim().toLowerCase();
+      const treeEl = document.getElementById('tree');
+      const headers = treeEl.querySelectorAll('.node-header');
+      headers.forEach(h => {
+        h.classList.remove('match', 'highlight');
+        const name = (data.structures[h.dataset.id]?.name || '').toLowerCase();
+        const id = (h.dataset.id || '').toLowerCase();
+        if (!q) {
+          h.closest('.children')?.classList.remove('collapsed');
+          h.closest('.node')?.querySelector('.toggle')?.classList.remove('empty');
+          const t = h.querySelector('.toggle');
+          if (t && !t.classList.contains('empty')) t.textContent = '&#9660;';
+        } else if (name.includes(q) || id.includes(q)) {
+          h.classList.add('match');
+          h.closest('.children')?.classList.remove('collapsed');
+          let p = h.closest('.children');
+          while (p) {
+            p.classList.remove('collapsed');
+            p.previousElementSibling?.querySelector('.toggle') && (p.previousElementSibling.querySelector('.toggle').textContent = '&#9660;');
+            p = p.closest('.node')?.parentElement?.closest('.children');
+          }
+        }
+      });
+    });
+
+    loadData().catch(err => {
+      document.querySelector('.stats').textContent = 'Failed to load ontology-tree.json. Run: python scripts/owl_to_tree.py';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

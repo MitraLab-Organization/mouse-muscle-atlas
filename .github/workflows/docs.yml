@@ -25,6 +25,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Generate ontology tree
+        run: python scripts/owl_to_tree.py
+
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
