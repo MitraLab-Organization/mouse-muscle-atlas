@@ -12,6 +12,7 @@ The Mouse Muscle Atlas (MMA) is a comprehensive ontology containing 173 anatomic
 
 ## Quick Links
 
+- [**Hierarchy Tree**](ontology-tree.html) – Interactive ontology browser
 - [OBO Foundry](https://obofoundry.org/)
 - [GitHub Repository](https://github.com/MitraLab-Organization/mouse-muscle-atlas)
 
